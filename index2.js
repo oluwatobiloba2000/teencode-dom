@@ -12,7 +12,7 @@ function add(event) {
     }
     const divElem = document.createElement('div');
     divElem.textContent = text;
-    
+    console.log(divElem);
     const spanElem = document.createElement('span');
     spanElem.textContent = 'X';
     spanElem.classList.add('delete');

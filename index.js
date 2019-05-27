@@ -15,9 +15,11 @@ console.log(document.querySelectorAll('div'));
 
 // Assignment
 // Add padding to the paragraphs
+//SOLUTION BY OLUWATOBILOBA
 document.querySelectorAll('.container').forEach(item => {
     console.log(item);
     item.style.backgroundColor = 'green';
+    item.style.padding = '20px';
 });
 
 // Click evenxt
